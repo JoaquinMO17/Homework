@@ -33,4 +33,35 @@ This Python script is designed to identify the greatest non-negative subset from
 
 ## Author
 This script was written by Murguia Ortiz Joaquin de Jesus.
+# Linked list vs Numpy array
+## Description
+The script consists of two main components:
+
+1. Linked List Implementation:
+The script defines a Node class for linked list nodes and a LinkedList class to handle linked list operations such as adding nodes at the front or end and printing the list.
+2. Speed Comparison Function:
+The script includes a function compare_speed(n) to compare the speed of writing data to a linked list and a NumPy array of length n.
+Inside compare_speed(n), instances of linked list and NumPy array are created, data is written into them, and the time taken is measured.
+
+## How it works
+1. A linked list is implemented in the script.
+2. The script then proceeds to write 10000 elements on each the linked list and a numpy array.
+3. Finally, it compares the times of writing by graphing them side by side.
+
+## Usage
+1. Ensure you have Python installed on your system.
+2. Copy the provided code into a Python file (e.g., `listvsnumpy.py`).
+3. Run the script using a Python interpreter.
+4. View the output.
+
+## Example Output
+![Screenshot 2024-04-04 085757](https://github.com/JoaquinMO17/Homework/assets/157546675/9d80b2e1-6f33-4dc2-b269-47e4e1067d34)
+
+## Dependencies
+- Python 3.x
+- `random` module (built-in)
+- `matplotlib` module
+
+## Author
+This script was written by Murguia Ortiz Joaquin de Jesus.
 
