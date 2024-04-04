@@ -59,7 +59,7 @@ Inside compare_speed(n), instances of linked list and NumPy array are created, d
 
 ## Dependencies
 - Python 3.x
-- `random` module (built-in)
+- `Numpy` module
 - `matplotlib` module
 
 ## Author
