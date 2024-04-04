@@ -3,18 +3,18 @@ This repository is only for uploading homework.
 
 # Greatest subset
 ## Description
-This Python script is designed to identify the greatest non-negative subset from a randomly generated list of integers. It iterates through the list, extracting subsets of non-negative integers and comparing them to find the subset with the largest sum.
+This Python script is designed to identify the greatest non-negative subset from a randomly generated list of integers. It iterates through the list, extracting subsets of non-negative integers and comparing them to find the subset with the largest sum. In the end, it graphs the time of execution against the readings of the mainset.
 
 ## How it works
-1. The script generates a list `mainset` containing 100 random integers between -100 and 100.
+1. The script generates a list `mainset` containing 1000 random integers between -100 and 100.
 2. It initializes several lists and variables to keep track of subsets and their sums.
-3. It iterates through each element of `mainset`, adding non-negative integers to `lastsubset`.
+3. It iterates through each element of `mainset`, adding non-negative integers to `lastsubset` while measuring the time it takes to do each iteration.
 4. When encountering a negative integer, it checks if there's more than one negative integer in a row.
 5. If the current `lastsubset` has a greater sum than the previously identified greatest subset, it updates `greatestsubset`.
-6. Finally, it prints the `greatestsubset` and the sum of its elements.
+6. Finally, it prints the `greatestsubset` and the sum of its elements in addition to the graphing of reads vs time.
 
 ## Usage
-1. Ensure you have Python installed on your system.
+1. Ensure you have Python installed on your system as well as the library matplotlib.
 2. Copy the provided code into a Python file (e.g., `greatest_subset.py`).
 3. Run the script using a Python interpreter.
 4. View the output to see the greatest non-negative subset and the sum of its elements.
@@ -25,9 +25,12 @@ This Python script is designed to identify the greatest non-negative subset from
 [27, 72, 77]
 176
 ~~~
+![Screenshot 2024-04-04 082056](https://github.com/JoaquinMO17/Homework/assets/157546675/51b3e817-6418-4fea-a18f-e1c46cd34a49)
 ## Dependencies
 - Python 3.x
 - `random` module (built-in)
+- `matplotlib` module
 
 ## Author
 This script was written by Murguia Ortiz Joaquin de Jesus.
+
