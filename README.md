@@ -33,6 +33,7 @@ This Python script is designed to identify the greatest non-negative subset from
 
 ## Author
 This script was written by Murguia Ortiz Joaquin de Jesus.
+
 # Linked list vs Numpy array
 ## Description
 The script consists of two main components:
@@ -65,3 +66,35 @@ Inside compare_speed(n), instances of linked list and NumPy array are created, d
 ## Author
 This script was written by Murguia Ortiz Joaquin de Jesus.
 
+# Binary Tree Implementation in Python
+## Description
+This Python script provides an implementation of a binary tree data structure, along with methods to insert nodes, perform traversals, search for specific nodes, and print subtrees rooted at specific nodes.
+
+##Features
+BinaryTree Class: Represents the binary tree and includes methods for insertion, traversal, search, and printing subtrees.
+TreeNode Class: Represents a node in the binary tree.
+Insertion: Method to insert new nodes into the binary tree.
+Inorder Traversal: Method to perform an inorder traversal of the binary tree.
+Node Search: Method to search for a node with a specific value in the tree.
+Print Subtree: Method to print the subtree rooted at a specific node.
+
+## How it works
+1. The `insert` method allows adding new nodes to the binary tree. When a node is inserted, it is placed in the appropriate position based on its value. If the value is less than the current node's value, it is inserted into the left subtree; if it's greater, it goes into the right subtree.
+2. The `inorder_traversal` method performs an inorder traversal of the binary tree. In this traversal, nodes are visited in the order left subtree, current node, right subtree. This results in the values being printed in sorted order.
+3. The `search_node` method allows searching for a node with a specific value in the binary tree. It performs a recursive search starting from the root node and traversing left or right based on the comparison of values until the target node is found.
+4. The `print_subtree` method prints the subtree rooted at a specific node. It performs an inorder traversal starting from the given node, printing the values of the nodes in the subtree.
+
+## Usage
+1. Ensure you have Python installed on your system.
+2. Copy the provided code into a Python file (e.g., `binarytree.py`).
+3. Run the script using a Python interpreter or change the example values to make your own binarytree.
+4. View the output.
+
+## Example Output
+![Screenshot 2024-04-04 183355](https://github.com/JoaquinMO17/Homework/assets/157546675/65ea753a-c9fd-409c-b769-4f86d678d601)
+
+## Dependencies
+- Python 3.x
+
+## Author
+This script was written by Murguia Ortiz Joaquin de Jesus.
